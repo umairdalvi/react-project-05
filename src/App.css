@@ -1,3 +1,6 @@
+@import url(/fonts/eb-garamond/stylesheet.css);
+@import url(/fonts/inter/stylesheet.css);
+
 :root {
   --text-color: #48494e;
   --heading: #090f32;
@@ -133,4 +136,23 @@ a {
 
 .menu li:hover {
   color: var(--prime-two);
+}
+
+.container:has(.hero-section) {
+  padding: 5rem 10rem;
+}
+
+.hero-title {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 4.5rem;
+}
+
+.word-deco {
+  position: relative;
+}
+
+h1 img {
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
 }
