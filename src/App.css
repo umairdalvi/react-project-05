@@ -35,6 +35,48 @@ p {
   margin: 0;
 }
 
+@-webkit-keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+
+@-webkit-keyframes rotate-90-ccw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+@keyframes rotate-90-ccw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+
 .button {
   display: flex;
   align-items: baseline;
@@ -145,7 +187,7 @@ p {
 }
 
 .container:has(.hero-section) {
-  padding: 10rem 12rem;
+  padding: 8rem 0;
 }
 
 .hero-title {
@@ -233,4 +275,55 @@ h1 img {
 
 .play-btn-highlight {
   color: var(--prime-two);
+}
+
+.section-two {
+  padding: 1rem;
+}
+
+.section-two-banner {
+  position: relative;
+  background-color: #f3f7f8;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+}
+
+.section-two-banner img {
+  width: 90%;
+  border-radius: 1.25rem;
+}
+
+.section-two-deco {
+  position: absolute;
+  max-width: 22%;
+}
+
+.section-two-deco-01 {
+  max-width: 15%;
+  top: -10%;
+  left: -10%;
+  animation: rotate-90-cw infinite linear 10s alternate;
+}
+
+.section-two-deco-02 {
+  max-width: 20%;
+  bottom: -10%;
+  right: -10%;
+  animation: rotate-90-ccw infinite linear 10s alternate;
+  z-index: -1;
+}
+
+.section-two-deco-03 {
+  max-width: 15%;
+  right: -13%;
+  top: 10%;
+}
+
+.section-two-deco-04 {
+  max-width: 15%;
+  left: -12%;
+  bottom: 10%;
 }
