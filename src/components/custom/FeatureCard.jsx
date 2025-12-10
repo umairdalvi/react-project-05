@@ -2,7 +2,7 @@ const FeatureCard = ({ imgUrl, featureName, featureDsc }) => {
     return (
         <div className="feature-card">
             <div className="feature-img-wrapper">
-                <img src={imgUrl} alt="" className="feature-img" />
+                <img src={imgUrl} alt={featureName} className="feature-img" />
             </div>
             <div className="feature-name">
                 <p>{featureName}</p>
