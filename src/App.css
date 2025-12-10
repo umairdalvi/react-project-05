@@ -642,3 +642,109 @@ h1 img {
   flex-direction: column;
   align-items: center;
 }
+
+.review-card {
+  max-height: 250px;
+  min-height: fit-content;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.review-text {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.reviewer-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.reviewer-job {
+  color: var(--text-color);
+}
+
+.slider {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.slider-buttons {
+  max-width: fit-content;
+  margin: 2rem auto;
+}
+
+.slider-buttons button {
+  color: var(--text-color);
+  font-size: 2rem;
+}
+
+.section-5 {
+  margin: 5rem 0 0 0;
+}
+
+.section-5-bg {
+  background-color: #f3f7f8;
+  padding: 5rem;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  max-width: 100%;
+}
+
+.section-5-bg > img {
+  border-radius: 50%;
+}
+
+.section-5-bg img:first-of-type {
+  top: 18%;
+  left: 15%;
+}
+
+.section-5-bg img:nth-of-type(2) {
+  bottom: 40%;
+  left: 10%;
+}
+
+.section-5-bg img:nth-of-type(3) {
+  bottom: 10%;
+  left: 20%;
+}
+
+.section-5-bg img:nth-of-type(4) {
+  top: 13%;
+  right: 20%;
+}
+
+.section-5-bg img:last-of-type {
+  bottom: 25%;
+  right: 10%;
+}
+
+.section-5-title {
+  font-family: "EB Garamond", serif;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: var(--heading);
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
+.quote-icon {
+  background-color: var(--prime-six);
+  width: 96px;
+  padding: 1.5rem;
+  border-radius: 50%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
