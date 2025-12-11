@@ -748,3 +748,87 @@ h1 img {
   justify-content: center;
   margin: auto;
 }
+
+.footer-column {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.footer-col-title {
+  margin: 0 0 2rem 0;
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  font-size: 1.15rem;
+  color: var(--text-color);
+}
+
+.footer-nav li {
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.footer-nav li:hover {
+  color: var(--prime-two);
+  text-decoration: underline;
+}
+
+.footer {
+  margin: 4rem 0 3rem 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+}
+
+.shape-4 {
+  background-color: #ffd27c;
+  height: 196px;
+  width: 196px;
+  border-radius: 50%;
+  top: -25%;
+  left: -10%;
+  z-index: -1;
+}
+
+.shape-5 {
+  background-color: #67d1ff;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  bottom: -15%;
+  right: -5%;
+  z-index: -1;
+}
+
+.contact-info {
+  margin: 2rem 0 0 0;
+}
+
+.contact-email {
+  color: var(--text-color);
+  transition: all 0.25s linear;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.contact-phone {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--prime-two);
+  margin: 1rem 0 0 0;
+}
+
+.contact-phone:hover {
+  text-decoration: underline;
+}
