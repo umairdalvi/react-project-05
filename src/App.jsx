@@ -6,6 +6,7 @@ import SectionThree from "./components/custom/SectionThree";
 import SectionFour from "./components/custom/SectionFour";
 import SectionSix from "./components/custom/SectionSix";
 import SectionFive from "./components/custom/SectionFive";
+import Footer from "./components/custom/Footer";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <SectionFour />
             <SectionFive />
             <SectionSix />
+            <Footer />
         </div>
     );
 };
