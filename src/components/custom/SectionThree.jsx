@@ -3,7 +3,7 @@ import Button from "./Button";
 const SectionThree = () => {
     return (
         <div className="container">
-            <div className="section-three d-flex">
+            <div className="section-three d-flex flex-column flex-lg-row">
                 <div className="section-three-left">
                     <div className="section-three-text">
                         <div className="section-three-sub-heading">
@@ -26,7 +26,7 @@ const SectionThree = () => {
                         />
                     </div>
                 </div>
-                <div className="section-three-right">
+                <div className="section-three-right w-100">
                     <div className="section-three-bg">
                         <div className="section-three-bg-img">
                             <img src="./images/Plogo-1.png" alt="plogo-1" />

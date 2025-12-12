@@ -37,7 +37,7 @@ const SectionSix = () => {
                     </button>
                 </div>
                 <div className="row w-100">
-                    <div className="col-lg-3 p-0">
+                    <div className="col-lg-3 p-0 d-none d-lg-block">
                         <ul className="list-unstyled pr-list-wrapper">
                             <li className="pr-list-item">
                                 <p>Full Access Library</p>
@@ -54,7 +54,7 @@ const SectionSix = () => {
                         </ul>
                     </div>
                     <div className="col-lg-9 pr-table-wrapper">
-                        <div className="row">
+                        <div className="row gap-5 gap-md-0">
                             <div className="col-md-4 p-0">
                                 <div className="pr-column">
                                     <div className="pr-header">
@@ -73,15 +73,27 @@ const SectionSix = () => {
                                     <div className="pr-body">
                                         <ul className="list-unstyled">
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Full Access Library
+                                                </p>
                                                 <i className="ri-close-large-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Multiple Users
+                                                </p>
                                                 <i className="ri-close-large-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Refund
+                                                </p>
                                                 <i className="ri-close-large-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    24/7 Support
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                         </ul>
@@ -115,15 +127,27 @@ const SectionSix = () => {
                                     <div className="pr-body">
                                         <ul className="list-unstyled">
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Full Access Library
+                                                </p>
                                                 <i className="ri-close-large-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Multiple Users
+                                                </p>
                                                 <i className="ri-close-large-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Refund
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    24/7 Support
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                         </ul>
@@ -157,15 +181,27 @@ const SectionSix = () => {
                                     <div className="pr-body">
                                         <ul className="list-unstyled">
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Full Access Library
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Multiple Users
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    Refund
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                             <li>
+                                                <p className="d-lg-none mb-3">
+                                                    24/7 Support
+                                                </p>
                                                 <i className="ri-check-line"></i>
                                             </li>
                                         </ul>
@@ -184,9 +220,17 @@ const SectionSix = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shape-3"></div>
-                <img src="./images/shape_40.svg" alt="shape_40" />
-                <img src="./images/shape_41.svg" alt="shape_41" />
+                <div className="shape-3 d-none d-lg-block"></div>
+                <img
+                    className="d-none d-lg-block"
+                    src="./images/shape_40.svg"
+                    alt="shape_40"
+                />
+                <img
+                    className="d-none d-lg-block"
+                    src="./images/shape_41.svg"
+                    alt="shape_41"
+                />
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="d-none d-xl-block">
             <ul className="navbar-nav d-flex flex-row gap-5">
                 <li className="navigation-item">
                     <a href="#">

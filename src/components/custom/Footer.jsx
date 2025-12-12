@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="container">
             <footer className="footer">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div className="footer-column">
                             <div className="footer-logo-wrapper">
                                 <img src="./images/logo.png" alt="logo" />
@@ -16,7 +16,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div className="footer-column">
                             <p className="footer-col-title">Links</p>
                             <ul className="list-unstyled footer-nav">
@@ -29,7 +29,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div className="footer-column">
                             <p className="footer-col-title">Legal</p>
                             <ul className="list-unstyled footer-nav">
@@ -40,7 +40,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div className="footer-column">
                             <p className="footer-col-title">Products</p>
                             <ul className="list-unstyled footer-nav">
